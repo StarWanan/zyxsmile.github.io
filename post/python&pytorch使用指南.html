@@ -1,1 +1,607 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><link href="/static/css/chunk-libs.eebac533.css" rel="stylesheet"><link href="/static/css/app.0d31776f.css" rel="stylesheet"><!-- hexo injector head_end start --><script rel="prefetch" async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-core.js" data-manual></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/themes/prism.min.css"/><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"/><link rel="stylesheet" href="https://fonts.loli.net/css?family=Rubik" /><script rel="preload" src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.css"/><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head><body id="body-container"><noscript><strong>We're sorry but Aurora Blog doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>(function(e){function t(t){for(var a,n,u=t[0],i=t[1],c=t[2],l=0,p=[];l<u.length;l++)n=u[l],Object.prototype.hasOwnProperty.call(o,n)&&o[n]&&p.push(o[n][0]),o[n]=0;for(a in i)Object.prototype.hasOwnProperty.call(i,a)&&(e[a]=i[a]);f&&f(t);while(p.length)p.shift()();return s.push.apply(s,c||[]),r()}function r(){for(var e,t=0;t<s.length;t++){for(var r=s[t],a=!0,n=1;n<r.length;n++){var u=r[n];0!==o[u]&&(a=!1)}a&&(s.splice(t--,1),e=i(i.s=r[0]))}return e}var a={},n={runtime:0},o={runtime:0},s=[];function u(e){return i.p+"static/js/"+({404:"404",about:"about",archives:"archives",categories:"categories",page:"page",post:"post",result:"result",tags:"tags"}[e]||e)+"."+{404:"00d640a8",about:"024aacd1",archives:"574ac664",categories:"90aa5475",page:"a02618ad",post:"cebfbaa4",result:"39470350",tags:"2ad613f5"}[e]+".js"}function i(t){if(a[t])return a[t].exports;var r=a[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r={404:1,about:1,archives:1,categories:1,page:1,post:1,result:1,tags:1};n[e]?t.push(n[e]):0!==n[e]&&r[e]&&t.push(n[e]=new Promise((function(t,r){for(var a="static/css/"+({404:"404",about:"about",archives:"archives",categories:"categories",page:"page",post:"post",result:"result",tags:"tags"}[e]||e)+"."+{404:"1a6cd5bd",about:"32dfa3b0",archives:"c0d49bd5",categories:"10e2be12",page:"749ad047",post:"9f951a60",result:"10e2be12",tags:"10e2be12"}[e]+".css",o=i.p+a,s=document.getElementsByTagName("link"),u=0;u<s.length;u++){var c=s[u],l=c.getAttribute("data-href")||c.getAttribute("href");if("stylesheet"===c.rel&&(l===a||l===o))return t()}var p=document.getElementsByTagName("style");for(u=0;u<p.length;u++){c=p[u],l=c.getAttribute("data-href");if(l===a||l===o)return t()}var f=document.createElement("link");f.rel="stylesheet",f.type="text/css",f.onload=t,f.onerror=function(t){var a=t&&t.target&&t.target.src||o,s=new Error("Loading CSS chunk "+e+" failed.\n("+a+")");s.code="CSS_CHUNK_LOAD_FAILED",s.request=a,delete n[e],f.parentNode.removeChild(f),r(s)},f.href=o;var d=document.getElementsByTagName("head")[0];d.appendChild(f)})).then((function(){n[e]=0})));var a=o[e];if(0!==a)if(a)t.push(a[2]);else{var s=new Promise((function(t,r){a=o[e]=[t,r]}));t.push(a[2]=s);var c,l=document.createElement("script");l.charset="utf-8",l.timeout=120,i.nc&&l.setAttribute("nonce",i.nc),l.src=u(e);var p=new Error;c=function(t){l.onerror=l.onload=null,clearTimeout(f);var r=o[e];if(0!==r){if(r){var a=t&&("load"===t.type?"missing":t.type),n=t&&t.target&&t.target.src;p.message="Loading chunk "+e+" failed.\n("+a+": "+n+")",p.name="ChunkLoadError",p.type=a,p.request=n,r[1](p)}o[e]=void 0}};var f=setTimeout((function(){c({type:"timeout",target:l})}),12e4);l.onerror=l.onload=c,document.head.appendChild(l)}return Promise.all(t)},i.m=e,i.c=a,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var a in e)i.d(r,a,function(t){return e[t]}.bind(null,a));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e["default"]}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/",i.oe=function(e){throw console.error(e),e};var c=window["webpackJsonp"]=window["webpackJsonp"]||[],l=c.push.bind(c);c.push=t,c=c.slice();for(var p=0;p<c.length;p++)t(c[p]);var f=l;r()})([]);</script><script src="/static/js/chunk-libs.dc6146cd.js"></script><script src="/static/js/app.6d2c358d.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"zyxsmile.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="pytorch参数 &amp; 命令行 &amp; 辅助loggerlogger模块解释 —— CSDNlogger使用案例 logging模块是Python内置的标准模块，主要用于输出运行日志，可以设置输出日志的等级、日志保存路径、日志文件回滚等 yacs.configyacs使用 —— 知乎 yacs库，用于为一个系统构建config文件 需要创建CN()这个作为容器来装载我们的参数，这个容器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pytorch &amp; python">
+<meta property="og:url" content="https://zyxsmile.github.io/post/python&pytorch%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html">
+<meta property="og:site_name" content="Star">
+<meta property="og:description" content="pytorch参数 &amp; 命令行 &amp; 辅助loggerlogger模块解释 —— CSDNlogger使用案例 logging模块是Python内置的标准模块，主要用于输出运行日志，可以设置输出日志的等级、日志保存路径、日志文件回滚等 yacs.configyacs使用 —— 知乎 yacs库，用于为一个系统构建config文件 需要创建CN()这个作为容器来装载我们的参数，这个容器">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-05-03T12:10:00.000Z">
+<meta property="article:modified_time" content="2022-05-04T03:39:30.478Z">
+<meta property="article:author" content="Star">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://zyxsmile.github.io/post/python&pytorch%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>Pytorch & python | Star</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Star</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">有棱有角，还会发光；努力生活，星之煌煌～</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://zyxsmile.github.io/post/python&pytorch%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Star">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Star">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Pytorch & python
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-05-03 20:10:00" itemprop="dateCreated datePublished" datetime="2022-05-03T20:10:00+08:00">2022-05-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-05-04 11:39:30" itemprop="dateModified" datetime="2022-05-04T11:39:30+08:00">2022-05-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="pytorch"><a href="#pytorch" class="headerlink" title="pytorch"></a>pytorch</h1><h2 id="参数-amp-命令行-amp-辅助"><a href="#参数-amp-命令行-amp-辅助" class="headerlink" title="参数 &amp; 命令行 &amp; 辅助"></a>参数 &amp; 命令行 &amp; 辅助</h2><h3 id="logger"><a href="#logger" class="headerlink" title="logger"></a>logger</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/liming89/article/details/109609557">logger模块解释 —— CSDN</a><br><a target="_blank" rel="noopener" href="https://vimsky.com/examples/detail/python-method-utils.logger.setup_logger.html">logger使用案例</a></p>
+<p>logging模块是Python内置的标准模块，主要用于输出运行日志，可以设置输出日志的等级、日志保存路径、日志文件回滚等</p>
+<h3 id="yacs-config"><a href="#yacs-config" class="headerlink" title="yacs.config"></a>yacs.config</h3><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/366289700">yacs使用 —— 知乎</a></p>
+<p>yacs库，用于为一个系统构建config文件</p>
+<p>需要创建<code>CN()</code>这个作为容器来装载我们的参数，这个容器可以嵌套</p>
+<h2 id="设备相关"><a href="#设备相关" class="headerlink" title="设备相关"></a>设备相关</h2><h3 id="torch-cuda-synchronize"><a href="#torch-cuda-synchronize" class="headerlink" title="torch.cuda.synchronize()"></a>torch.cuda.synchronize()</h3><p>等待当前设备上所有流中的所有核心完成。</p>
+<p>🌰：测试时间的代码</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># code 1</span>
+start <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+result <span class="token operator">=</span> model<span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">)</span>
+end <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># code 2</span>
+torch<span class="token punctuation">.</span>cuda<span class="token punctuation">.</span>synchronize<span class="token punctuation">(</span><span class="token punctuation">)</span>
+start <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+result <span class="token operator">=</span> model<span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">)</span>
+torch<span class="token punctuation">.</span>cuda<span class="token punctuation">.</span>synchronize<span class="token punctuation">(</span><span class="token punctuation">)</span>
+end <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># code 3</span>
+start <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+result <span class="token operator">=</span> model<span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+end <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>代码2是正确的。因为在pytorch里面，程序的执行都是异步的。<br>如果采用代码1，测试的时间会很短，因为执行完end=time.time()程序就退出了，后台的cu也因为python的退出退出了。<br>如果采用代码2，代码会同步cu的操作，等待gpu上的操作都完成了再继续成形end = time.time()</p>
+<p>代码3和代码2的时间是类似的。<br>因为代码3会等待gpu上的结果执行完传给print函数，所以时间就和代码2同步的操作的时间基本上是一致的了。<br>将print(result)换成result.cpu()结果是一致的。</p>
+<h2 id="数据加载"><a href="#数据加载" class="headerlink" title="数据加载"></a>数据加载</h2><h2 id="图像数据变换"><a href="#图像数据变换" class="headerlink" title="图像数据变换"></a>图像数据变换</h2><p>transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])</p>
+<p>Normalize是把图像数据从[0,1]变成[-1,1]，变换公式是image=(image-mean)/std，那么其中的参数就分别是三个通道的mean和std，这个均值和标准差需要自己计算，范围就是训练集和验证集的所有图像。</p>
+<h3 id="DataLoader"><a href="#DataLoader" class="headerlink" title="DataLoader"></a>DataLoader</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42468475/article/details/108714940">CSDN原文链接</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/361830892">collate_fn参数使用详解 —— 知乎</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_24407657/article/details/103992170">num_works参数 —— CSDN</a></p>
+<hr>
+<p>加载一个batch的数据这一步需要使用一个<code>torch.utils.data.DataLoader</code>对象，并且DataLoader是一个基于某个dataset的iterable，这个iterable每次从dataset中基于某种采样原则取出一个batch的数据。<br>也可以这样说：Torch中可以创建一个torch.utils.data.==Dataset==对象，并与torch.utils.data.==DataLoader==一起使用，在训练模型时不断为模型提供数据。</p>
+<p><strong>torch.utils.data.DataLoader</strong></p>
+<p>定义：Data loader. Combines a dataset and a sampler, and provides an iterable over the given dataset.<br>构造函数:<br><pre class="line-numbers language-python" data-language="python"><code class="language-python">torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data<span class="token punctuation">.</span>DataLoader<span class="token punctuation">(</span>dataset<span class="token punctuation">,</span> 
+							batch_size<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span> 
+							shuffle<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> 
+							sampler<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
+							batch_sampler<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> num_workers<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> collate_fn<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
+							pin_memory<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> drop_last<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> timeout<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>
+							worker_init_fn<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></p>
+<ul>
+<li>dataset: 抽象类,包含两种类型<ul>
+<li><code>map-style datasets</code></li>
+<li><code>iterable-style datasets</code></li>
+</ul>
+</li>
+<li>batch_size : 每一次抽样的batch-size大小</li>
+<li>shuffle : True则随机打乱数据</li>
+<li>Num_works：将batch加载进RAM的进程数。内存开销大，CPU负担大。可能之后几次迭代的数据在本次迭代的时候已经加载进内存。</li>
+<li>collate_fn：如何取样本的，我们可以定义自己的函数来准确地实现想要的功能。</li>
+<li>drop_last：告诉如何处理数据集长度除于batch_size余下的数据。True就抛弃，否则保留。</li>
+</ul>
+<p><strong>Map-style datasets</strong></p>
+<p>是一个类，要求有 <code>__getitem__()</code>and<code>__len__()</code>这两个构造函数，代表一个从索引映射到数据样本。</p>
+<ul>
+<li><code>__getitem__()</code>: 根据索引index遍历数据</li>
+<li><code>__len__()</code>: 返回数据集的长度</li>
+<li>可编写独立的数据处理函数<ul>
+<li>在 <code>__getitem()__</code> 函数中进行调用</li>
+<li>直接将数据处理函数写在 <code>__getitem()__</code> 或者 <code>__init()__</code> 函数中，但是<code>__getitem()__</code><br>必须根据==index==返回响应的值，该值会通过index传到dataloader中进行后续的batch批处理。</li>
+</ul>
+</li>
+</ul>
+<p>基本需要满足：<br><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">__getitem__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> index<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> self<span class="token punctuation">.</span>src<span class="token punctuation">[</span>index<span class="token punctuation">]</span><span class="token punctuation">,</span> self<span class="token punctuation">.</span>trg<span class="token punctuation">[</span>index<span class="token punctuation">]</span>
+
+<span class="token keyword">def</span> <span class="token function">__len__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>src<span class="token punctuation">)</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></p>
+<p><code>getitem()</code>方法用来从datasets中读取一条数据，这条数据包含训练<strong>图片</strong>（已CV距离）和<strong>标签</strong>，参数index表示图片和标签在总数据集中的Index。</p>
+<p><code>len()</code>方法返回数据集的总长度（训练集的总数）。</p>
+<p><strong>实现 MyDatasets 类</strong></p>
+<ol>
+<li>简单直白</li>
+</ol>
+<p>把 x 和 label 分别装入两个列表 self.src 和 self.trg ，然后通过 getitem(self, idex) 返回对应元素<br><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> torch
+<span class="token keyword">from</span> torch <span class="token keyword">import</span> nn
+<span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> Dataset<span class="token punctuation">,</span> DataLoader
+ 
+<span class="token keyword">class</span> <span class="token class-name">My_dataset</span><span class="token punctuation">(</span>Dataset<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token builtin">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>__init__<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token comment">## 使用sin函数返回10000个时间序列,如果不自己构造数据，就使用numpy,pandas等读取自己的数据为x即可。</span>
+        <span class="token comment">## 以下数据组织这块既可以放在init方法里，也可以放在getitem方法里</span>
+        self<span class="token punctuation">.</span>x <span class="token operator">=</span> torch<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>y <span class="token operator">=</span> self<span class="token punctuation">.</span>x<span class="token punctuation">.</span><span class="token builtin">sum</span><span class="token punctuation">(</span>axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>src<span class="token punctuation">,</span>  self<span class="token punctuation">.</span>trg <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            self<span class="token punctuation">.</span>src<span class="token punctuation">.</span>append<span class="token punctuation">(</span>self<span class="token punctuation">.</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+            self<span class="token punctuation">.</span>trg<span class="token punctuation">.</span>append<span class="token punctuation">(</span>self<span class="token punctuation">.</span>y<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    
+           
+    <span class="token keyword">def</span> <span class="token function">__getitem__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> index<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> self<span class="token punctuation">.</span>src<span class="token punctuation">[</span>index<span class="token punctuation">]</span><span class="token punctuation">,</span> self<span class="token punctuation">.</span>trg<span class="token punctuation">[</span>index<span class="token punctuation">]</span>
+
+    <span class="token keyword">def</span> <span class="token function">__len__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>src<span class="token punctuation">)</span> 
+        
+ <span class="token comment">## 或者return len(self.trg), src和trg长度一样</span>
+ 
+data_train <span class="token operator">=</span> My_dataset<span class="token punctuation">(</span><span class="token punctuation">)</span>
+data_test <span class="token operator">=</span> My_dataset<span class="token punctuation">(</span><span class="token punctuation">)</span>
+data_loader_train <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>data_train<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+data_loader_test <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>data_test<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+<span class="token comment">## i_batch的多少根据batch size和def __len__(self)返回的长度确定</span>
+<span class="token comment">## batch_data返回的值根据def __getitem__(self, index)来确定</span>
+<span class="token comment">## 对训练集：(不太清楚enumerate返回什么的时候就多print试试)</span>
+<span class="token keyword">for</span> i_batch<span class="token punctuation">,</span> batch_data <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>data_loader_train<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>i_batch<span class="token punctuation">)</span>  <span class="token comment">## 打印batch编号</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>batch_data<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment">## 打印该batch里面src</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>batch_data<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment">## 打印该batch里面trg</span>
+<span class="token comment">## 对测试集：（下面的语句也可以）</span>
+<span class="token keyword">for</span> i_batch<span class="token punctuation">,</span> <span class="token punctuation">(</span>src<span class="token punctuation">,</span> trg<span class="token punctuation">)</span> <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>data_loader_test<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>i_batch<span class="token punctuation">)</span>  <span class="token comment">## 打印batch编号</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>src<span class="token punctuation">)</span>  <span class="token comment">## 打印该batch里面src的尺寸</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>trg<span class="token punctuation">)</span>  <span class="token comment">## 打印该batch里面trg的尺寸    </span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></p>
+<p>生成的data_train可以通过 <code>data_train[xxx]</code>直接索引某个元素，或者通过<code>next(iter(data_train))</code> 得到一条条的数据。</p>
+<ol>
+<li>借助TensorDataset将数据包装成dataset</li>
+</ol>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> torch
+<span class="token keyword">from</span> torch <span class="token keyword">import</span> nn
+<span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> Dataset<span class="token punctuation">,</span> DataLoader<span class="token punctuation">,</span> TensorDataset
+ 
+src <span class="token operator">=</span> torch<span class="token punctuation">.</span>sin<span class="token punctuation">(</span>torch<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+trg <span class="token operator">=</span> torch<span class="token punctuation">.</span>cos<span class="token punctuation">(</span>torch<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+ 
+data <span class="token operator">=</span> TensorDataset<span class="token punctuation">(</span>src<span class="token punctuation">,</span> trg<span class="token punctuation">)</span>
+data_loader <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>data<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> i_batch<span class="token punctuation">,</span> batch_data <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>data_loader<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>i_batch<span class="token punctuation">)</span>  <span class="token comment">## 打印batch编号</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>batch_data<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>  <span class="token comment">## 打印该batch里面src</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>batch_data<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>  <span class="token comment">## 打印该batch里面trg</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol>
+<li>地址读取，生成数据的路径 txt文件</li>
+</ol>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> os
+
+<span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> Dataset
+<span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> DataLoader
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>image <span class="token keyword">as</span> mpimg
+
+
+
+<span class="token comment">## 对所有图片生成path-label map.txt 这个程序可根据实际需要适当修改</span>
+<span class="token keyword">def</span> <span class="token function">generate_map</span><span class="token punctuation">(</span>root_dir<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token comment">##得到当前绝对路径</span>
+    current_path <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span>
+    <span class="token comment">##os.path.dirname()向前退一个路径</span>
+    father_path <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>current_path<span class="token punctuation">)</span> <span class="token operator">+</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>sep <span class="token operator">+</span> <span class="token string">"."</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>root_dir <span class="token operator">+</span> <span class="token string">'map.txt'</span><span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> wfp<span class="token punctuation">:</span>
+        <span class="token keyword">for</span> idx <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            subdir <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>join<span class="token punctuation">(</span>root_dir<span class="token punctuation">,</span> <span class="token string">'%d/'</span> <span class="token operator">%</span> idx<span class="token punctuation">)</span>
+            <span class="token keyword">for</span> file_name <span class="token keyword">in</span> os<span class="token punctuation">.</span>listdir<span class="token punctuation">(</span>subdir<span class="token punctuation">)</span><span class="token punctuation">:</span>
+                abs_name <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>join<span class="token punctuation">(</span>father_path<span class="token punctuation">,</span> subdir<span class="token punctuation">,</span> file_name<span class="token punctuation">)</span>
+                <span class="token comment">## linux_abs_name = abs_name.replace("\\", '/')</span>
+                wfp<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token string">'&#123;file_dir&#125; &#123;label&#125;\n'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>file_dir<span class="token operator">=</span>linux_abs_name<span class="token punctuation">,</span> label<span class="token operator">=</span>idx<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment">## 实现MyDatasets类</span>
+<span class="token keyword">class</span> <span class="token class-name">MyDatasets</span><span class="token punctuation">(</span>Dataset<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> <span class="token builtin">dir</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment">## 获取数据存放的dir</span>
+        <span class="token comment">## 例如d:/images/</span>
+        self<span class="token punctuation">.</span>data_dir <span class="token operator">=</span> <span class="token builtin">dir</span>
+        <span class="token comment">## 用于存放(image,label) tuple的list,存放的数据例如(d:/image/1.png,4)</span>
+        self<span class="token punctuation">.</span>image_target_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+        <span class="token comment">## 从dir--label的map文件中将所有的tuple对读取到image_target_list中</span>
+        <span class="token comment">## map.txt中全部存放的是d:/.../image_data/1/3.jpg 1 路径最好是绝对路径</span>
+        <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>join<span class="token punctuation">(</span><span class="token builtin">dir</span><span class="token punctuation">,</span> <span class="token string">'map.txt'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'r'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> fp<span class="token punctuation">:</span>
+            content <span class="token operator">=</span> fp<span class="token punctuation">.</span>readlines<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token comment">##s.rstrip()删除字符串末尾指定字符（默认是字符）</span>
+            <span class="token comment">## 得到 [['d:/.../image_data/1/3.jpg', '1'], ...,]</span>
+            str_list <span class="token operator">=</span> <span class="token punctuation">[</span>s<span class="token punctuation">.</span>rstrip<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">for</span> s <span class="token keyword">in</span> content<span class="token punctuation">]</span>
+            <span class="token comment">## 将所有图片的dir--label对都放入列表，如果要执行多个epoch，可以在这里多复制几遍，然后统一shuffle比较好</span>
+            self<span class="token punctuation">.</span>image_target_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> str_list<span class="token punctuation">]</span>
+
+    <span class="token keyword">def</span> <span class="token function">__getitem__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> index<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        image_label_pair <span class="token operator">=</span> self<span class="token punctuation">.</span>image_target_list<span class="token punctuation">[</span>index<span class="token punctuation">]</span>
+        <span class="token comment">## 按path读取图片数据，并转换为图片格式例如[3,32,32]</span>
+        <span class="token comment">## 可以用别的代替</span>
+        img <span class="token operator">=</span> mpimg<span class="token punctuation">.</span>imread<span class="token punctuation">(</span>image_label_pair<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> img<span class="token punctuation">,</span> image_label_pair<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+
+    <span class="token keyword">def</span> <span class="token function">__len__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>image_target_list<span class="token punctuation">)</span>
+
+
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    <span class="token comment">## 生成map.txt</span>
+    <span class="token comment">## generate_map('train/')</span>
+
+    train_loader <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>MyDatasets<span class="token punctuation">(</span><span class="token string">'train/'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">128</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">for</span> step <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">20000</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">for</span> idx<span class="token punctuation">,</span> <span class="token punctuation">(</span>img<span class="token punctuation">,</span> label<span class="token punctuation">)</span> <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>train_loader<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span>img<span class="token punctuation">.</span>shape<span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span>label<span class="token punctuation">.</span>shape<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="网络搭建Trick"><a href="#网络搭建Trick" class="headerlink" title="网络搭建Trick"></a>网络搭建Trick</h2><h3 id="with-torch-no-grad"><a href="#with-torch-no-grad" class="headerlink" title="with torch.no_grad()"></a>with torch.no_grad()</h3><blockquote><span class="custom-blockquote-svg"><svg width="24" height="24" viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg" data-reactroot="">
+<path fill="" d="M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C13.8 22 15.5 21.5 17 20.6L22 22L20.7 17C21.5 15.5 22 13.8 22 12Z" undefined="1"></path>
+<path fill="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z" undefined="1"></path>
+<path fill="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z" undefined="1"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M17 8.5C15.23 8.97 14.07 10.84 14.01 13.27C14 13.33 14 13.4 14 13.47V13.5"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M9 8.5C7.23 8.97 6.07 10.84 6.01 13.27C6 13.33 6 13.4 6 13.47V13.5"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z"></path>
+</svg>
+</span><p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/sazass/article/details/116668755">https://blog.csdn.net/sazass/article/details/116668755</a></p></blockquote>
+<p>作用：在该模块下，所有计算得出的tensor的requires_grad都自动设置为False。当requires_grad设置为False时,反向传播时就不会自动求导了，因此大大节约了显存或者说内存。</p>
+<h2 id="基本功能函数"><a href="#基本功能函数" class="headerlink" title="基本功能函数"></a>基本功能函数</h2><h3 id="torch-max"><a href="#torch-max" class="headerlink" title="torch.max()"></a>torch.max()</h3><p><code>torch.max(input) → Tensor</code>:返回输入tensor中所有元素的最大值</p>
+<p><code>torch.max(input, dim, keepdim=False, out=None) -&gt; (Tensor, LongTensor)</code>: 按维度dim 返回最大值，并且返回索引。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">torch<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>， 只返回最大值的每个数
+
+troch<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>， 只返回最大值的每个索引
+
+torch<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>data 只返回variable中的数据部分（去掉Variable containing<span class="token punctuation">:</span>）
+
+torch<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>numpy<span class="token punctuation">(</span><span class="token punctuation">)</span> 把数据转化成numpy ndarry
+
+torch<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>numpy<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>squeeze<span class="token punctuation">(</span><span class="token punctuation">)</span> 把数据条目中维度为<span class="token number">1</span> 的删除掉<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><p><code>str.lower()</code> 全部转化为小写字母</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/post/DMLNet.html" rel="prev" title="DMLNet">
+      <i class="fa fa-chevron-left"></i> DMLNet
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/post/%E4%B8%80%E7%B1%BB%E5%B5%8C%E5%85%A5%E5%8F%8D%E5%90%91%E8%92%B8%E9%A6%8F.html" rel="next" title="一类嵌入的反向蒸馏">
+      一类嵌入的反向蒸馏 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#pytorch"><span class="nav-number">1.</span> <span class="nav-text">pytorch</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E6%95%B0-amp-%E5%91%BD%E4%BB%A4%E8%A1%8C-amp-%E8%BE%85%E5%8A%A9"><span class="nav-number">1.1.</span> <span class="nav-text">参数 &amp; 命令行 &amp; 辅助</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#logger"><span class="nav-number">1.1.1.</span> <span class="nav-text">logger</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#yacs-config"><span class="nav-number">1.1.2.</span> <span class="nav-text">yacs.config</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E5%A4%87%E7%9B%B8%E5%85%B3"><span class="nav-number">1.2.</span> <span class="nav-text">设备相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#torch-cuda-synchronize"><span class="nav-number">1.2.1.</span> <span class="nav-text">torch.cuda.synchronize()</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD"><span class="nav-number">1.3.</span> <span class="nav-text">数据加载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E6%95%B0%E6%8D%AE%E5%8F%98%E6%8D%A2"><span class="nav-number">1.4.</span> <span class="nav-text">图像数据变换</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#DataLoader"><span class="nav-number">1.4.1.</span> <span class="nav-text">DataLoader</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E7%BB%9C%E6%90%AD%E5%BB%BATrick"><span class="nav-number">1.5.</span> <span class="nav-text">网络搭建Trick</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#with-torch-no-grad"><span class="nav-number">1.5.1.</span> <span class="nav-text">with torch.no_grad()</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD%E5%87%BD%E6%95%B0"><span class="nav-number">1.6.</span> <span class="nav-text">基本功能函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#torch-max"><span class="nav-number">1.6.1.</span> <span class="nav-text">torch.max()</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#python"><span class="nav-number">2.</span> <span class="nav-text">python</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Star</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Star</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
